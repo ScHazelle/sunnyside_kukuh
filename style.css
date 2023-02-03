@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: url(./images/desktop/image-header.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+
+}
+.nandi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+}
+
+.li-navbar{
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.navbar-btn{
+    text-decoration: none;
+    color: white;
+    border-radius: 45;
+}
+.contact{
+    background-color: black;
+    border-color: black;
+}
+.judul{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    padding-top: 70px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+.arrowdown{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    padding-top: 2%;
+}
+.article{
+    display: flex;
+
+}
+.lnk{
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+    border-bottom: 3px solid hsl(51, 100%, 49%);
+    font-family: 'barlow', sans-serif;
+    font-size: 17px;
+}
+.text-article{
+    display: flex;
+    width: 50%;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+}
+.top-left{
+    width: 50%;
+}
+.desk1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-right{
+    width: 50%;
+}
+.desk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.atasan-article{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+.article2{
+    display: flex;
+}
+
+.mbrh{
+    padding-top:0px ;
+}
+.text-article2{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+}
+.gelas {
+    width: 50%;
+}
+a {
+    text-decoration: underline;
+    list-style-type: none;
+}
+.article3{
+    display: flex;
+}
+
+.egg{
+    display: flex;
+    height: 100%;
+    padding-right: 0px;
+    width: 100%;
+}
+.cangkir{
+    width: 100%;
+    height: 100%;
+}
+.telur {
+    width: 50%;
+}
+.leci{
+    display: flex;
+    width: 100%;
+}
+.buah{
+    display: flex;
+    width: 100%;
+}
+.gambar-article3{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    height: 90vh;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.gambar-article4{
+    background-image: url(./images/desktop/image-photography.jpg);
+    height: 90vh;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.text-article3{
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50%;
+}
+.desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.text-article4{
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 50%;
+}
+.Grap{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: hsl(167, 40%, 24%);
+}
+.phot{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: hsl(198, 62%, 26%);
+}
+.sblh-tlr{
+    font-family: 'barlow';
+    font-size: medium;
+    padding-top: 30px;
+}
+.desk-grap{
+    font-family: 'barlow';
+    font-size: medium;
+    padding-top: 30px;
+    color:hsl(167, 40%, 24%) ;
+}
+.desk-phot{
+    font-family: 'barlow';
+    font-size: medium;
+    padding-top: 30px;
+    color: hsl(198, 62%, 26%);
+    justify-content: center;
+    align-items: center;
+}
+
+.jdl-testi{
+    color: hsl(210, 4%, 67%);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    padding-top: 4%;
+}
+
+.img-jjr{
+    display: flex;
+}
+.gambar-milk{
+    width: 25%;
+    height: 50%;
+    display: flex;
+}
+.gambar-jeruk{
+    width: 25%;
+    height: 50%;
+    display: flex;
+}
+.gambar-cone{
+    width: 25%;
+    height: 50%;
+    display: flex;
+}
+.gambar-gula{
+    width: 25%;
+    height: 50%;
+    display: flex;
+}
+
+.jdl-testi{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.room{
+    display: flex;
+    justify-content: center;
+}
+.pg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'barlow';
+    color: hsl(210, 4%, 67%);
+}
+.pl{
+    font-family: 'barlow';
+    font-size: 13px;
+    text-align: center;
+    color: hsl(210, 4%, 67%);
+}
+.testi{
+    display: grid;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+.uwong {
+    border-radius: 50%;
+}
+
+.satu{
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dua{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiga{
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empat{
+    grid-column: 1/2;
+    width: 15rem;
+}
+
+.lima{
+    grid-column: 2/3;
+    width: 15rem;
+}
+
+.enam{
+    grid-column: 3/4;
+    width: 15rem;
+}
+
+.tujuh{
+    grid-column: 1/2;
+}
+
+.delapan{
+    grid-column: 2/3;
+}
+
+.sembilan{
+    grid-column: 3/4;
+}
+
+.la{
+    text-align: center;
+    font-family: 'fraunces';
+    font-size: 20px;
+}
+footer {
+    background-color: hsl(168, 34%, 41%);
+    height: 55vh;
+}
+.tulisan-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+.ason{
+    display: flex;
+    justify-content: center;
+}
+.siuu{
+    margin: 25px;
+}
+.kimak{
+    font-family: 'barlow';
+}
+.ikon{
+    display: flex;
+    justify-content: center;
+}
+.rudal{
+    margin: 20px;
+}
+.li-navbar1 {
+    background-color: white;
+    padding: 6px;
+    border-radius: 10px;
+    
+}
+.li-navbar1>a {
+    color: black;
+}
